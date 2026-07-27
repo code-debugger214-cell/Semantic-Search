@@ -1,0 +1,65 @@
+{
+    "corpus_name": "ecology_abstracts",
+    "queries": [
+        {
+            "query": "how do invasive species affect ecological networks over time",
+            "correct_title": "How network temporal dynamics shape a mutualistic system with invasive species?"
+        },
+        {
+            "query": "how does cooperation between species affect the stability of ecological communities",
+            "correct_title": "Reconciling cooperation, biodiversity and stability in complex ecological communities"
+        },
+        {
+            "query": "what conditions allow competing species to coexist",
+            "correct_title": "Biodiversity in model ecosystems, I: Coexistence conditions for competing species"
+        },
+        {
+            "query": "does biodiversity influence the spread of disease outbreaks",
+            "correct_title": "The effect of biodiversity on the Hantavirus epizootic"
+        },
+        {
+            "query": "can deep learning identify tree species automatically",
+            "correct_title": "Deep Learning for Automated Identification of Vietnamese Timber Species: A Tool for Ecological Monitoring and Conservation"
+        },
+        {
+            "query": "how is deep learning used to analyze camera trap images for ecology",
+            "correct_title": "Deep learning-based ecological analysis of camera trap images is impacted by training data quality and quantity"
+        },
+        {
+            "query": "how are ecological networks structured across multiple layers",
+            "correct_title": "The Multilayer Nature of Ecological Networks"
+        },
+        {
+            "query": "how can AI help monitor biodiversity in cities",
+            "correct_title": "Artificial Intelligence for Sustainable Urban Biodiversity: A Framework for Monitoring and Conservation"
+        },
+        {
+            "query": "how are neural networks used for species distribution modeling",
+            "correct_title": "StatEcoNet: Statistical Ecology Neural Networks for Species Distribution Modeling"
+        },
+        {
+            "query": "what simple models explain microbial biodiversity patterns",
+            "correct_title": "A minimal model for microbial biodiversity can reproduce experimentally observed ecological patterns"
+        },
+        {
+            "query": "why are some species much more common than others in nature",
+            "correct_title": "Self-organized biodiversity and species abundance distribution patterns in ecosystems with higher-order interactions"
+        },
+        {
+            "query": "is there a dataset for species that look almost identical to each other",
+            "correct_title": "CrypticBio: A Large Multimodal Dataset for Visually Confusing Biodiversity"
+        },
+        {
+            "query": "can blockchain technology help protect endangered species",
+            "correct_title": "Preserving Nature's Ledger: Blockchains in Biodiversity Conservation"
+        },
+        {
+            "query": "does the size of a farm affect pest control and wildlife",
+            "correct_title": "Farm Size Matters: A Spatially Explicit Ecological-Economic Framework for Biodiversity and Pest Management"
+        },
+        {
+            "query": "why do some species survive longer at the cost of not being dominant",
+            "correct_title": "Mito-nuclear selection induces a trade-off between species ecological dominance and evolutionary lifespan"
+        }
+    ]
+}

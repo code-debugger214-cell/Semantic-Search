@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-main: #0b0f19;
+  --bg-card: rgba(17, 24, 39, 0.75);
+  --bg-card-hover: rgba(31, 41, 55, 0.85);
+  --border-card: rgba(255, 255, 255, 0.08);
+  
+  --semantic-purple: #8b5cf6;
+  --semantic-purple-light: #c084fc;
+  --semantic-glow: rgba(139, 92, 246, 0.25);
+  
+  --keyword-teal: #10b981;
+  --keyword-teal-light: #34d399;
+  --keyword-glow: rgba(16, 185, 129, 0.25);
+  
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-main);
+  background-image: 
+    radial-gradient(at 15% 15%, rgba(139, 92, 246, 0.12) 0px, transparent 50%),
+    radial-gradient(at 85% 85%, rgba(16, 185, 129, 0.1) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(30, 58, 138, 0.15) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glassmorphism Cards */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-card);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.semantic-border {
+  border-left: 4px solid var(--semantic-purple) !important;
+}
+
+.semantic-border:hover {
+  box-shadow: 0 12px 35px -10px var(--semantic-glow);
+  border-color: var(--semantic-purple-light);
+}
+
+.keyword-border {
+  border-left: 4px solid var(--keyword-teal) !important;
+}
+
+.keyword-border:hover {
+  box-shadow: 0 12px 35px -10px var(--keyword-glow);
+  border-color: var(--keyword-teal-light);
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.badge-semantic {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--semantic-purple-light);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.badge-keyword {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--keyword-teal-light);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Progress Bars */
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.progress-semantic {
+  height: 100%;
+  background: linear-gradient(90deg, #6366f1, #a855f7);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.progress-keyword {
+  height: 100%;
+  background: linear-gradient(90deg, #059669, #14b8a6);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+/* Query Pill Button */
+.sample-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sample-pill:hover {
+  background: rgba(99, 102, 241, 0.2);
+  border-color: #6366f1;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Match Token Highlight */
+.match-tag {
+  background: rgba(16, 185, 129, 0.25);
+  color: #6ee7b7;
+  font-weight: 600;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* Tab Navigation */
+.nav-tab {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-tab:hover {
+  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-tab.active {
+  color: #ffffff;
+  background: rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}

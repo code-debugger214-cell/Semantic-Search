@@ -1,0 +1,65 @@
+{
+    "corpus_name": "mobile_networks_abstracts",
+    "queries": [
+        {
+            "query": "how can reinforcement learning decide when to offload computation in mobile edge networks",
+            "correct_title": "Deep Reinforcement Learning for Online Computation Offloading in Wireless Powered Mobile-Edge Computing Networks"
+        },
+        {
+            "query": "what are common security attacks on wireless sensor networks",
+            "correct_title": "A Comparison of Link Layer Attacks on Wireless Sensor Networks"
+        },
+        {
+            "query": "can phone network data be used to estimate population",
+            "correct_title": "Population estimation from mobile network traffic metadata"
+        },
+        {
+            "query": "how can quantum computing help optimize mobile networks",
+            "correct_title": "Quantum Computing for Artificial Intelligence Based Mobile Network Optimization"
+        },
+        {
+            "query": "what new antenna technology is being explored for 6G",
+            "correct_title": "Holographic MIMO Surfaces for 6G Wireless Networks: Opportunities, Challenges, and Trends"
+        },
+        {
+            "query": "how can mobile apps run securely using trusted hardware",
+            "correct_title": "LEAP: TrustZone Based Developer-Friendly TEE for Intelligent Mobile Apps"
+        },
+        {
+            "query": "how can AI quickly allocate wireless spectrum in changing conditions",
+            "correct_title": "Meta-Reinforcement Learning for Fast and Data-Efficient Spectrum Allocation in Dynamic Wireless Networks"
+        },
+        {
+            "query": "how can IoT devices detect network intrusions with less labeled data",
+            "correct_title": "Active Learning for Wireless IoT Intrusion Detection"
+        },
+        {
+            "query": "does user movement affect caching performance in device-to-device networks",
+            "correct_title": "The Effects of Mobility on the Hit Performance of Cached D2D Networks"
+        },
+        {
+            "query": "what communication techniques support massive device connectivity in 6G",
+            "correct_title": "Non-Coherent and Backscatter Communications: Enabling Ultra-Massive Connectivity in 6G Wireless Networks"
+        },
+        {
+            "query": "how can phones save battery while getting help from nearby computers",
+            "correct_title": "A Low-Energy Fast Cyber Foraging Mechanism for Mobile Devices"
+        },
+        {
+            "query": "can we guess where a moving device will go next using AI",
+            "correct_title": "Mobility Prediction in Wireless Ad Hoc Networks using Neural Networks"
+        },
+        {
+            "query": "how do wireless devices decide to team up and share work",
+            "correct_title": "Hedonic Coalition Formation for Distributed Task Allocation among Wireless Agents"
+        },
+        {
+            "query": "what makes sensor networks vulnerable to attacks",
+            "correct_title": "Security in Wireless Sensor Networks"
+        },
+        {
+            "query": "why do people choose to share their internet connection with others",
+            "correct_title": "A Game-Theoretic Analysis of User Behaviors in Crowdsourced Wireless Community Networks"
+        }
+    ]
+}

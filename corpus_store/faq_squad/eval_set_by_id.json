@@ -1,0 +1,53 @@
+{
+    "corpus_name": "faq_squad",
+    "queries": [
+        {
+            "query": "what religious statues are near the main building",
+            "correct_id": "5733be284776f41900661182"
+        },
+        {
+            "query": "how did notre dame become a coeducational school",
+            "correct_id": "573393e1d058e614000b5dc2"
+        },
+        {
+            "query": "when was the school of architecture founded",
+            "correct_id": "5733a55a4776f41900660f3a"
+        },
+        {
+            "query": "what is the nickname of notre dame's sports teams",
+            "correct_id": "5733c1a94776f419006611a6"
+        },
+        {
+            "query": "where was beyonce born and to which parents",
+            "correct_id": "56be892d3aeaaa14008c908b"
+        },
+        {
+            "query": "why did some members leave beyonce's original group",
+            "correct_id": "56be8d423aeaaa14008c90b2"
+        },
+        {
+            "query": "what was beyonce's second solo album",
+            "correct_id": "56be932e3aeaaa14008c90f9"
+        },
+        {
+            "query": "what movie did beyonce act in playing a blues singer",
+            "correct_id": "56be96653aeaaa14008c9116"
+        },
+        {
+            "query": "when did beyonce take a break from making music",
+            "correct_id": "56be97c73aeaaa14008c912a"
+        },
+        {
+            "query": "when was beyonce's first child born",
+            "correct_id": "56be9bb83aeaaa14008c915c"
+        },
+        {
+            "query": "how did beyonce release her fifth album to the public",
+            "correct_id": "56be9e453aeaaa14008c917a"
+        },
+        {
+            "query": "how did becoming a mother affect beyonce's touring schedule",
+            "correct_id": "56be9bb83aeaaa14008c915c"
+        }
+    ]
+}

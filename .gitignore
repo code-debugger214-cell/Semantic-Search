@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# ML model cache (large, auto-downloaded at runtime)
+# Hugging Face cache downloaded by sentence-transformers
+.cache/
+~/.cache/huggingface/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# NOTE: corpus_store/ is intentionally NOT ignored.
+# Pre-built FAISS indexes and corpus data are committed to git
+# so they are available in cloud deployments (Render, Railway, etc.)
+# Only temporary uploads are excluded:
+corpus_store/**/__pycache__/

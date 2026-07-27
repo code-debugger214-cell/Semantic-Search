@@ -1,0 +1,11 @@
+{
+  "corpus_name": "ml_research",
+  "category": "General",
+  "queries": [
+    {
+      "query": "What document discusses a machine learning approach to predicting species extinction risk\nyogith kishore & robert chun\nreceived july 14, 2025\naccepted october 18, 2025\nelectronic access october 31, 2025\ndespite the consequence of species going extinct not currently being visible, its impact in our future can be devastating to\nbiodiversity, ecosystem stability, and our own society?",
+      "correct_title": "A Machine Learning Approach To Predicting Species Extinction Risk",
+      "correct_id": "A_Machine_Learning_Approach_to_Predicting_Species_Extinction_Risk"
+    }
+  ]
+}

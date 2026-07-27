@@ -1,0 +1,24 @@
+# netlify.toml — Netlify deployment config (FRONTEND ONLY)
+# The React SPA is deployed as a static site.
+# The FastAPI backend must be deployed separately (e.g., Render or Railway).
+# Set VITE_API_BASE_URL in Netlify environment variables to point to your backend.
+
+[build]
+  base    = "frontend"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA fallback — all routes serve index.html (React Router handles routing)
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
