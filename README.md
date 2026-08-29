@@ -92,15 +92,6 @@ cd frontend && npm install && npm run dev
 
 ---
 
-## 🌐 Deployment
-
-Ready for zero-config deployment on popular cloud platforms:
-
-- **Render**: Connect repository; uses auto-detected `render.yaml`.
-- **Railway**: Deploy using `railway up` or `railway.toml`.
-- **Vercel / Netlify**: Deploy frontend using `vercel.json` or `netlify.toml`.
-
----
 
 ## 📄 License
 
